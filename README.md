@@ -1,2 +1,3 @@
 # extract-demo
-Testing the Extract extension on Brackets. HTML/CSS
+HTML/CSS. This page was built using the <a href="http://www.adobe.com/creativecloud/extract.html">Extract plugin</a> for Brackets.
+http://czmj.github.io/extract-demo/
