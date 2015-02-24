@@ -66,6 +66,7 @@ h3{
     -webkit-box-shadow: 0px 6px 18px 0.00px rgba(0, 0, 0, 0.18);
     -moz-box-shadow: 0px 6px 18px 0.00px rgba(0, 0, 0, 0.18);
     box-shadow: 0px 6px 18px 0.00px rgba(0, 0, 0, 0.18);
+    display:inline-block;
 }
 @media screen and (max-width: 480px) {
     .button{
@@ -89,8 +90,8 @@ h3{
 }
 /*section 2 content*/
 .content p{
-    /*height: 89px;
-    width: 315px !important;*/
+    height: 82px;
+    width: 315px;
     color: #454545;
     font: 400 24px / 35px 'Source Sans Pro';
     display:inline-block;
