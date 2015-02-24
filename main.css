@@ -3,6 +3,11 @@ body{
     text-align:center;
     font-family: 'Source Sans Pro';
 }
+.col{
+    width: 332px;
+    max-width: 84%;
+    margin:3.2% 8%;
+}
 #header{
     background:#181e21;
     width:100%;
@@ -27,7 +32,7 @@ body{
 }
 #section2{
     background-color: #f6f9fa;
-    padding-top: 3.6%%;
+    padding-top: 3.6%;
     min-height: 660px;
 }
 .badge{
@@ -49,15 +54,8 @@ body{
 h3{
     color: #454545;
     font: 400 24px / 36px 'Source Sans Pro';
-    margin-top: 2%;
 }
-.content {
-    width: 90%;
-    margin:0;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
+
 .button {
     width: 332px;
     height: 82px;
@@ -68,8 +66,14 @@ h3{
     -webkit-box-shadow: 0px 6px 18px 0.00px rgba(0, 0, 0, 0.18);
     -moz-box-shadow: 0px 6px 18px 0.00px rgba(0, 0, 0, 0.18);
     box-shadow: 0px 6px 18px 0.00px rgba(0, 0, 0, 0.18);
-    margin: 30px;
 }
+@media screen and (max-width: 480px) {
+    .button{
+        font-size: 22px;
+    }
+}
+
+/* button colours*/
 .btn-green{
     background-color: #44e0b6;
 }
@@ -83,28 +87,31 @@ h3{
     background: -ms-linear-gradient(135deg, #69c8e7 0%, #49d3b4 100%);
     background: linear-gradient(-45deg, #69c8e7 0%, #49d3b4 100%);
 }
-
-.content span{
-    width: 315px;
-    height: 89px;
-    margin:30px;
+/*section 2 content*/
+.content p{
+    /*height: 89px;
+    width: 315px !important;*/
     color: #454545;
     font: 400 24px / 35px 'Source Sans Pro';
     display:inline-block;
 }
 img{
     margin:4.3%;
-    width: 532px;
+    width: 60.9%;
+    min-width: 300px;
+    height:auto;
 }
 
+/*footer*/
 #footer {
     background-color: #181e21;
     min-height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 #footer h2{
     color: #ffffff;
     font: 600 36px 'Source Sans Pro';
-    margin:0;
-    padding-top: 77px;
 }
